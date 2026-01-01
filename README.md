@@ -1,6 +1,6 @@
 # AWS Serverless ELT Pipeline — S3 → Lambda → SQS → Lambda → S3 (Production-lite)
 
-An intentionally lite version enn to end serverless pipeline:
+## An intentionally lite version of end to end serverless pipeline:
 
 - **Bronze (raw)**: `S3` JSON/JSONL
 - **Ingest**: `Lambda` (object-level idempotency via DynamoDB) → `SQS`
